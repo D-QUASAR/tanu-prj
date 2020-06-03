@@ -1,0 +1,52 @@
+.navbar{
+ position: fixed!important;
+ top: 0!important;
+ width: 100%!important;
+ background-color: whitesmoke!important;
+ z-index: 1000000000000000!important;
+}
+.myclass{
+ height: 50px;
+}
+.trans{
+ transition: all 0.5s linear !important;
+}
+.trans:hover{
+ transform: 10px!important;
+ translate: 3;
+ border-left: solid 5px orangered;
+ 
+}
+.hello{
+ transition: all 0.5s linear !important;
+}
+.hello:hover{
+ scale: 2px!important;
+ color: red!important;
+ background: blue;
+ scale: 2px!important;
+}
+.about{
+ padding-top: 5rem;
+ padding-bottom: 100px!important;
+ height: calc(101px - 100vh)!important;
+}
+.img{
+background: green;
+border: solid 10px green!important;
+
+}
+
+.padding{
+ padding-left: 100px!important;
+ 
+}
+.form{
+ padding-top: 5rem;
+}
+.mystyle{
+ padding-top: 15rem;
+}
+.face{
+ padding-left: 40px;
+}
